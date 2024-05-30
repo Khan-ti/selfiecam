@@ -1,5 +1,5 @@
 import "./style.css";
-import { getVideo, drawVideo } from "./src/camera";
+import { getVideo, drawVideo } from "./src/camera.js";
 
 (async function run() {
   const video = await getVideo();
