@@ -6,7 +6,7 @@ import { getVideo, drawVideo } from "./src/camera.js";
   const canvas = document.querySelector("canvas");
   const button = document.getElementById("camera");
 
-  button.addEventListener("click", () => {
+  button.addEventListener("click", function() {
     drawVideo(video, canvas);
   });
 })();
